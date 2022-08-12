@@ -1,0 +1,28 @@
+:host ::ng-deep {
+  .node {
+    stroke-width: 3px;
+    cursor: move;
+    fill: #FB7454;
+    filter: drop-shadow(3px 5px 5px rgb(0, 0, 0, 0.3));
+  }
+
+  .node ~ text {
+    font-family: Comfortaa, SansSerif, sans-serif;
+    font-size: 16px;
+    fill: #fff;
+    user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  .dragging {
+    opacity: 0.6;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+}
